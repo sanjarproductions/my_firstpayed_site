@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url(../fonts/Oswald-Light.eot);
+    src: url(../fonts/Oswald-Light.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Oswald-Light.otf) format('otf'),
+         url(../fonts/Oswald-Light.svg#Oswald-Light) format('svg'),
+         url(../fonts/Oswald-Light.ttf) format('truetype'),
+         url(../fonts/Oswald-Light.woff) format('woff'),
+         url(../fonts/Oswald-Light.woff2) format('woff2');
+  }
+  
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(../fonts/Oswald-Medium.eot);
+    src: url(../fonts/Oswald-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Oswald-Medium.otf) format('otf'),
+         url(../fonts/Oswald-Medium.svg#Oswald-Medium) format('svg'),
+         url(../fonts/Oswald-Medium.ttf) format('truetype'),
+         url(../fonts/Oswald-Medium.woff) format('woff'),
+         url(../fonts/Oswald-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Oswald-Bold';
+    src: url(../fonts/Oswald-Bold.eot);
+    src: url(../fonts/Oswald-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Oswald-Bold.otf) format('otf'),
+         url(../fonts/Oswald-Bold.svg#Oswald-Bold) format('svg'),
+         url(../fonts/Oswald-Bold.ttf) format('truetype'),
+         url(../fonts/Oswald-Bold.woff) format('woff'),
+         url(../fonts/Oswald-Bold.woff2) format('woff2');
+  }
+  
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.eot);
+    src: url(../fonts/Montserrat-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Montserrat-Regular.woff2) format('woff2'),
+         url(../fonts/Montserrat-Regular.woff) format('woff'),
+         url(../fonts/Montserrat-Regular.ttf) format('truetype'),
+         url(../fonts//Montserrat-Regular.svg#Montserrat-Regular) format('svg'),
+         url(../fonts/Montserrat-Regular.otf) format('otf');
+  }
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat-Regular';
+}
+.container{
+   max-width: 1200px;
+   padding-top: 1px;
+   margin: 0 auto;
+}
+body{
+     font-family:'Montserrat-Regular';
+     height: 100%;
+}
+.nav{
+     font-family:'Oswald-Medium';
+     display: flex;
+     margin-left: 40px;
+}
+.nav .t{
+     padding: 12px 18px;
+     font-size: 17px;
+     cursor: pointer;
+     text-decoration: none;
+     color: #000;
+}
+.logo{
+     font-family: 'Oswald-Medium';
+     font-size: 30px;
+     margin-left: 20px;
+     padding-top: 30px;
+     color: #fff;
+     letter-spacing: 2px;
+}
+.p1{
+     background: url(../img/bg2.png) #000 50% 50% no-repeat;
+     height: 100vh;
+}
+.p1 .t1{
+     color: #fff;
+     font-size: 45px;
+     letter-spacing: 2px; 
+     font-family: 'Oswald-Medium';
+     line-height: 1.2;
+     margin-top: 60px;
+     
+}
+.p1 .t2{
+     color: #fff;
+     font-family: 'Oswald-Medium';
+     margin: 30px 0px;
+     font-size: 22px;
+     margin-bottom: 45px;
+     letter-spacing: 2px;
+}
+.p1 .link{
+     text-decoration: none;
+     color: #fff;
+     cursor: pointer;
+     font-size: 20px;
+     font-family: Montserrat;
+     padding: 10px 35px;
+     background: blue;
+     border-radius: 22px;
+     transition: 1s;
+     font-family: 'Montserrat-Regular';
+}
+
+.p1 .link:hover{
+     box-shadow: 0px 0px 17px 0px blue;
+}
+.p3{
+     background: url(../img/bg3.png) #000 50% 50% no-repeat;
+     height: 100vh;
+}
+.p3 .t1{
+     color: #fff;
+     font-size: 60px;
+     letter-spacing: 2px; 
+     font-family: 'Oswald-Medium';
+     line-height: 1.2;
+     margin-top: 60px;
+     margin-bottom: 25px;
+}
+.p3 .link{
+     text-decoration: none;
+     color: #fff;
+     cursor: pointer;
+     font-size: 20px;
+     font-family: Montserrat;
+     padding: 10px 35px;
+     background: blue;
+     border-radius: 22px;
+     transition: 1s;
+     font-family: 'Montserrat-Regular';
+}
+.p3 .link:hover{
+     box-shadow: 0px 0px 17px 0px blue;
+}
+.p3 .t2{
+     color: #fff;
+     margin-bottom: 40px;
+}
+.p2{
+     background: url(../img/bg1.png) #000 50% 50% no-repeat;
+     height: 100vh;
+}
+.p2 .t1{
+     color: #fff;
+     font-size: 42px;
+     letter-spacing: 2px; 
+     font-family: 'Oswald-Medium';
+     line-height: 1.2;
+     margin-top: 60px;
+     margin-bottom: 25px;
+}
+.p2 .t2{
+     color: #fff;
+     font-family: 'Oswald-Medium';
+     margin: 30px 0px;
+     font-size: 22px;
+     margin-bottom: 45px;
+}
+.p2 .link{
+     text-decoration: none;
+     color: #fff;
+     cursor: pointer;
+     font-size: 20px;
+     font-family: Montserrat;
+     padding: 10px 35px;
+     background: blue;
+     border-radius: 22px;
+     transition: 1s;
+     font-family: 'Montserrat-Regular';
+}
+.p2 .link:hover{
+     box-shadow: 0px 0px 17px 0px blue;
+}
+.p1 .num{
+     font-size: 20px;
+     color: #fff;
+     margin-left: 20px;
+     margin-top: 25px;
+}
+.p2 .num{
+     font-size: 20px;
+     color: #fff;
+     margin-left: 20px;
+     margin-top: 25px;
+}
+.p3 .num{
+     font-size: 20px;
+     color: #fff;
+     margin-left: 20px;
+     margin-top: 25px;
+}
+.p1 .t3{
+     color: #fff;
+     font-size: 14px;
+     margin-left: 12px;
+     margin-bottom: 20px;
+}
+.p2 .t3{
+     color: #fff;
+     font-size: 14px;
+     margin-left: 12px;
+     margin-bottom: 20px;
+}
+.p3 .t3{
+     color: #fff;
+     font-size: 14px;
+     margin-left: 12px;
+     margin-bottom: 20px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 1170px){
+     .p1{
+          background: url(../img/dark1.png)#000 50% 50% no-repeat;
+          background-size: 100%;
+     }
+     .p2{
+          background: url(../img/dark2.png)#000 50% 50% no-repeat;
+          background-size: 100%;
+     }
+     .p3{
+          background: url(../img/dark3.png)#000 50% 50% no-repeat;
+          background-size: 100%;
+     }
+     .nav{
+          margin-left: 0px;
+     }
+     .nav .t{
+          padding: 19px 18px;
+     }
+     .p1 .t1{
+          font-size: 28px;
+          margin-left: 20px;
+          margin-top: 40px;
+          margin-bottom: 45px;
+     }
+     .p1 .t2{
+          margin-bottom: 70px;
+          font-size: 19px;
+          margin-left: 20px;
+          font-family: 'Oswald-Light';
+          letter-spacing: 2px;
+          margin: 30px 20px;
+     }
+     .p1 .link{
+          margin-left: 20px;
+     }
+     .p2 .t1{
+          font-size: 35px;
+          margin-left: 20px;
+     }
+     .p2 .t2{
+          margin-bottom: 70px;
+          font-size: 19px;
+          margin-left: 20px;
+          font-family: 'Oswald-Light';
+          letter-spacing: 2px;
+     }
+     .p2 .link{
+          margin-left: 20px; }
+     .p3 .t1{
+          margin-left: 20px;
+          font-size: 30px;
+     }
+     .p3 .link{
+          margin-left: 20px;
+     }
+     .p1 .num{
+          font-size: 16px;
+          color: #fff;
+          margin-left: 20px;
+     }
+     .p2 .num{
+          font-size: 16px;
+          color: #fff;
+          margin-left: 20px;
+     }
+     .p3 .num{
+          font-size: 16px;
+          color: #fff;
+          margin-left: 20px;
+     }
+     .p1 .t3{
+          margin-left: 25px;
+     }
+     .p2 .t3{
+          margin-left: 25px;
+     }
+     .p3 .t3{
+          margin-left: 25px;
+     }
+     .p3 .t2{
+          margin-left: 20px;
+          color: #fff;
+          margin-bottom: 40px;
+          font-size: 15px;
+          padding: 21px;
+     }
+}
